@@ -1,0 +1,14 @@
+env: local #production, stage
+app:
+  port: :8080
+  access_control_allow_origin: http://localhost:3000,https://service-dev.beiqilai.com
+auth:
+  jwt_secret: 4LfGaNQi06jpU1Bn45!:qnF
+sqlite: 
+logger:
+  debug: true
+  level: info
+  sql: true
+  sentry:
+    dsn: ""
+    sampling: 1.0
