@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AbsFacade">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/application/facade.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AdminMaterial">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/admin_materials.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AppConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/settings/app.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AuthConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/settings/auth.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AuthorizationMiddleware">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/gin/middleware/authorization_middleware.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Book">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/books.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BooksLesson">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/books_lessons.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CLI">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cmd/server/main.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ComponentsEditorGrammer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/components_editor_grammers.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ComponentsFreeIsFree">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/components_free_is_frees.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ComponentsMaterialPage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/components_material_pages.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/settings/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CoreError">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/core_error/core_error.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CoreStore">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/core_store.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DB">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/db.go" />
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/coregorm/db.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DefaultFreeMaterial">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/default_free_materials.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DefaultFreeMaterialsAdminMaterial">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/default_free_materials_admin_materials.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Dependencies">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/gin_engine/router/router_config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorAudio">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_audios.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorAudiosCategorie">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_audios_categories.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorBackground">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_backgrounds.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorCategoryAudio">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_category_audios.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorCategoryGrammer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_category_grammers.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorCategoryImage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_category_images.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorGrammer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_grammers.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorGrammersCategorie">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_grammers_categories.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorImage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_images.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorImagesCategorie">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_images_categories.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditorTheme">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_themes.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Entity">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/domain/entity.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Event">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/domain/event/define.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GenericGormRepository">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/repository/gorm/generic_repository.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GenericInMemRepository">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/repository/inmem/repository.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GinEngine">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/gin_engine/engine.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Grammer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/grammers.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GrammersComponent">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/grammers_components.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="I18nLocale">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/i18n_locales.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="InMemEventBus">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/eventbus/inmem/inmem.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LegalDocument">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/legal_documents.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Lesson">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/lessons.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LessonsGrammer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/lessons_grammers.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoggerConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/settings/logger.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Material">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/materials.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialContent">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_contents.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialContentSchema">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_content_schemas.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialDefaultLog">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_default_logs.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialElement">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_elements.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialShare">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_shares.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialTag">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_tags.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MaterialsComponent">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/materials_components.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Model">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/model.go" />
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/coregorm/model.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NewInterfaceImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/di/di_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Organization">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/organizations.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PaginationQuery">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/pagination/pagination.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PaginationResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/pagination/pagination.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Plan">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/plans.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PostgresConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/settings/db.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ResponseBody">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/gin/response.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RouterGroup">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/gin_engine/router/router_config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SentryConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/settings/logger.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ShopifyEvent">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/shopify_events.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StrapiAdministrator">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_administrator.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StrapiPermission">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_permission.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StrapiRole">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_role.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StrapiUsersRole">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_users_roles.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StrapiWebhook">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_webhooks.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Subscription">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/subscriptions.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TeacherRecommendation">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/teacher_recommendations.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TeacherRecommendationsLocalization">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/teacher_recommendations_localizations.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TempHeaderFooter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/temp_header_footers.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UploadFile">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/upload_file.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UploadFileMorph">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/upload_file_morph.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/domain/model/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserProfile">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/user_profiles.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UsersPermissionsPermission">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/users_permissions_permission.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UsersPermissionsRole">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/users_permissions_role.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UsersPermissionsUser">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/users_permissions_user.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="args">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/arch/port/gin/response_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="state">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/core/dependency/log/marchalstack.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/cmd/gorm_gen/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344078" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cmd/server/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723689852303" />
+              <option name="schema">
+                <list>
+                  <option value="CLI" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/application/command.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598714027" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/application/facade.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518190" />
+              <option name="schema">
+                <list>
+                  <option value="AbsFacade" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/application/usecase.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344028" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/core_error/core_error.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344028" />
+              <option name="schema">
+                <list>
+                  <option value="CoreError" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/core_error/error_code.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344028" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/domain/entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518205" />
+              <option name="schema">
+                <list>
+                  <option value="Entity" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/domain/event/define.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344029" />
+              <option name="schema">
+                <list>
+                  <option value="Event" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/domain/eventbus/define.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518204" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/domain/model/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598967922" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/domain/repository/domain_repository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344030" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/gin/binding/binding.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518179" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/gin/handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518179" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/gin/middleware/authorization_middleware.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723599422125" />
+              <option name="schema">
+                <list>
+                  <option value="AuthorizationMiddleware" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/gin/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518179" />
+              <option name="schema">
+                <list>
+                  <option value="ResponseBody" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/gin/response_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518190" />
+              <option name="schema">
+                <list>
+                  <option value="args" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/gin/service/jwttokenauthor.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723599426781" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/pagination/pagination.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344034" />
+              <option name="schema">
+                <list>
+                  <option value="PaginationQuery" />
+                  <option value="PaginationResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/repository/gorm/generic_repository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518207" />
+              <option name="schema">
+                <list>
+                  <option value="GenericGormRepository" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/repository/gorm/sqllite_repository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518204" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/arch/port/repository/inmem/repository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518197" />
+              <option name="schema">
+                <list>
+                  <option value="GenericInMemRepository" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/di/di.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344037" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/di/di_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344037" />
+              <option name="schema">
+                <list>
+                  <option value="NewInterfaceImpl" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/eventbus/inmem/inmem.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518714" />
+              <option name="schema">
+                <list>
+                  <option value="InMemEventBus" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/gin_engine/checkalive/checkalive.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344038" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/gin_engine/engine.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723769238267" />
+              <option name="schema">
+                <list>
+                  <option value="GinEngine" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/gin_engine/engine_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598518256" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/gin_engine/register_router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723600508545" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/gin_engine/router/router_config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723689852297" />
+              <option name="schema">
+                <list>
+                  <option value="RouterGroup" />
+                  <option value="Dependencies" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/log/marchalstack.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344039" />
+              <option name="schema">
+                <list>
+                  <option value="state" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/settings/app.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344040" />
+              <option name="schema">
+                <list>
+                  <option value="AppConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/settings/auth.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344040" />
+              <option name="schema">
+                <list>
+                  <option value="AuthConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/settings/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723602333680" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/settings/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344040" />
+              <option name="schema">
+                <list>
+                  <option value="PostgresConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/settings/logger.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344040" />
+              <option name="schema">
+                <list>
+                  <option value="SentryConfig" />
+                  <option value="LoggerConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cache/inmemcache.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723600551526" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723689588203" />
+              <option name="schema">
+                <list>
+                  <option value="DB" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/model.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723689588183" />
+              <option name="schema">
+                <list>
+                  <option value="Model" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/admin_materials.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344060" />
+              <option name="schema">
+                <list>
+                  <option value="AdminMaterial" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/books.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344060" />
+              <option name="schema">
+                <list>
+                  <option value="Book" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/books_lessons.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344060" />
+              <option name="schema">
+                <list>
+                  <option value="BooksLesson" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/components_editor_grammers.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344060" />
+              <option name="schema">
+                <list>
+                  <option value="ComponentsEditorGrammer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/components_free_is_frees.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344061" />
+              <option name="schema">
+                <list>
+                  <option value="ComponentsFreeIsFree" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/components_material_pages.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344061" />
+              <option name="schema">
+                <list>
+                  <option value="ComponentsMaterialPage" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/core_store.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344061" />
+              <option name="schema">
+                <list>
+                  <option value="CoreStore" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/default_free_materials.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344061" />
+              <option name="schema">
+                <list>
+                  <option value="DefaultFreeMaterial" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/default_free_materials_admin_materials.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344061" />
+              <option name="schema">
+                <list>
+                  <option value="DefaultFreeMaterialsAdminMaterial" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_audios.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorAudio" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_audios_categories.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorAudiosCategorie" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_backgrounds.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorBackground" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_category_audios.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorCategoryAudio" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_category_grammers.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorCategoryGrammer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_category_images.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorCategoryImage" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_grammers.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344062" />
+              <option name="schema">
+                <list>
+                  <option value="EditorGrammer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_grammers_categories.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344063" />
+              <option name="schema">
+                <list>
+                  <option value="EditorGrammersCategorie" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_images.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344063" />
+              <option name="schema">
+                <list>
+                  <option value="EditorImage" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_images_categories.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344063" />
+              <option name="schema">
+                <list>
+                  <option value="EditorImagesCategorie" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/editor_themes.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344063" />
+              <option name="schema">
+                <list>
+                  <option value="EditorTheme" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/grammers.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344063" />
+              <option name="schema">
+                <list>
+                  <option value="Grammer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/grammers_components.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344063" />
+              <option name="schema">
+                <list>
+                  <option value="GrammersComponent" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/i18n_locales.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="I18nLocale" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/legal_documents.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="LegalDocument" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/lessons.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="Lesson" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/lessons_grammers.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="LessonsGrammer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_content_schemas.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialContentSchema" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_contents.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialContent" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_default_logs.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344064" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialDefaultLog" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_elements.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialElement" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_shares.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialShare" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/material_tags.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialTag" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/materials.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="Material" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/materials_components.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="MaterialsComponent" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/organizations.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="Organization" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/plans.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="Plan" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/shopify_events.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344065" />
+              <option name="schema">
+                <list>
+                  <option value="ShopifyEvent" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_administrator.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="StrapiAdministrator" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_permission.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="StrapiPermission" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_role.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="StrapiRole" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_users_roles.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="StrapiUsersRole" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/strapi_webhooks.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="StrapiWebhook" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/subscriptions.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="Subscription" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/teacher_recommendations.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344066" />
+              <option name="schema">
+                <list>
+                  <option value="TeacherRecommendation" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/teacher_recommendations_localizations.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="TeacherRecommendationsLocalization" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/temp_header_footers.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="TempHeaderFooter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/upload_file.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="UploadFile" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/upload_file_morph.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="UploadFileMorph" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/user_profiles.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="UserProfile" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/users_permissions_permission.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="UsersPermissionsPermission" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/users_permissions_role.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="UsersPermissionsRole" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/cagorm/table/users_permissions_user.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344067" />
+              <option name="schema">
+                <list>
+                  <option value="UsersPermissionsUser" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/coregorm/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723689588203" />
+              <option name="schema">
+                <list>
+                  <option value="DB" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/storage/coregorm/model.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723689588183" />
+              <option name="schema">
+                <list>
+                  <option value="Model" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/dependency/unit_of_work/unit_of_work.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344070" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/infra/ptr.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344070" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/core/infra/validator/define.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723598344070" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="abs_facade" value="AbsFacade" />
+        <entry key="admin_material" value="AdminMaterial" />
+        <entry key="app_config" value="AppConfig" />
+        <entry key="args" value="args" />
+        <entry key="auth_config" value="AuthConfig" />
+        <entry key="authorization_middleware" value="AuthorizationMiddleware" />
+        <entry key="book" value="Book" />
+        <entry key="books_lesson" value="BooksLesson" />
+        <entry key="cli" value="CLI" />
+        <entry key="components_editor_grammer" value="ComponentsEditorGrammer" />
+        <entry key="components_free_is_free" value="ComponentsFreeIsFree" />
+        <entry key="components_material_page" value="ComponentsMaterialPage" />
+        <entry key="config" value="Config" />
+        <entry key="core_error" value="CoreError" />
+        <entry key="core_store" value="CoreStore" />
+        <entry key="db" value="DB" />
+        <entry key="default_free_material" value="DefaultFreeMaterial" />
+        <entry key="default_free_materials_admin_material" value="DefaultFreeMaterialsAdminMaterial" />
+        <entry key="dependencies" value="Dependencies" />
+        <entry key="editor_audio" value="EditorAudio" />
+        <entry key="editor_audios_categorie" value="EditorAudiosCategorie" />
+        <entry key="editor_background" value="EditorBackground" />
+        <entry key="editor_category_audio" value="EditorCategoryAudio" />
+        <entry key="editor_category_grammer" value="EditorCategoryGrammer" />
+        <entry key="editor_category_image" value="EditorCategoryImage" />
+        <entry key="editor_grammer" value="EditorGrammer" />
+        <entry key="editor_grammers_categorie" value="EditorGrammersCategorie" />
+        <entry key="editor_image" value="EditorImage" />
+        <entry key="editor_images_categorie" value="EditorImagesCategorie" />
+        <entry key="editor_theme" value="EditorTheme" />
+        <entry key="entity" value="Entity" />
+        <entry key="event" value="Event" />
+        <entry key="generic_gorm_repository" value="GenericGormRepository" />
+        <entry key="generic_in_mem_repository" value="GenericInMemRepository" />
+        <entry key="gin_engine" value="GinEngine" />
+        <entry key="grammer" value="Grammer" />
+        <entry key="grammers_component" value="GrammersComponent" />
+        <entry key="i18n_locale" value="I18nLocale" />
+        <entry key="in_mem_event_bus" value="InMemEventBus" />
+        <entry key="legal_document" value="LegalDocument" />
+        <entry key="lesson" value="Lesson" />
+        <entry key="lessons_grammer" value="LessonsGrammer" />
+        <entry key="logger_config" value="LoggerConfig" />
+        <entry key="material" value="Material" />
+        <entry key="material_content" value="MaterialContent" />
+        <entry key="material_content_schema" value="MaterialContentSchema" />
+        <entry key="material_default_log" value="MaterialDefaultLog" />
+        <entry key="material_element" value="MaterialElement" />
+        <entry key="material_share" value="MaterialShare" />
+        <entry key="material_tag" value="MaterialTag" />
+        <entry key="materials_component" value="MaterialsComponent" />
+        <entry key="model" value="Model" />
+        <entry key="new_interface_impl" value="NewInterfaceImpl" />
+        <entry key="organization" value="Organization" />
+        <entry key="pagination_query" value="PaginationQuery" />
+        <entry key="pagination_response" value="PaginationResponse" />
+        <entry key="plan" value="Plan" />
+        <entry key="postgres_config" value="PostgresConfig" />
+        <entry key="response_body" value="ResponseBody" />
+        <entry key="router_group" value="RouterGroup" />
+        <entry key="sentry_config" value="SentryConfig" />
+        <entry key="shopify_event" value="ShopifyEvent" />
+        <entry key="state" value="state" />
+        <entry key="strapi_administrator" value="StrapiAdministrator" />
+        <entry key="strapi_permission" value="StrapiPermission" />
+        <entry key="strapi_role" value="StrapiRole" />
+        <entry key="strapi_users_role" value="StrapiUsersRole" />
+        <entry key="strapi_webhook" value="StrapiWebhook" />
+        <entry key="subscription" value="Subscription" />
+        <entry key="teacher_recommendation" value="TeacherRecommendation" />
+        <entry key="teacher_recommendations_localization" value="TeacherRecommendationsLocalization" />
+        <entry key="temp_header_footer" value="TempHeaderFooter" />
+        <entry key="upload_file" value="UploadFile" />
+        <entry key="upload_file_morph" value="UploadFileMorph" />
+        <entry key="user" value="User" />
+        <entry key="user_profile" value="UserProfile" />
+        <entry key="users_permissions_permission" value="UsersPermissionsPermission" />
+        <entry key="users_permissions_role" value="UsersPermissionsRole" />
+        <entry key="users_permissions_user" value="UsersPermissionsUser" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1723689349561" />
+  </component>
+</project>
