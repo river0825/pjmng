@@ -20,7 +20,7 @@ import (
 	"river0825/cleanarchitecture/core/dependency/gin_engine/checkalive"
 	traceLog "river0825/cleanarchitecture/core/dependency/log"
 	"river0825/cleanarchitecture/core/dependency/settings"
-	"river0825/cleanarchitecture/core/dependency/storage/gorm"
+	gorm "river0825/cleanarchitecture/core/dependency/storage/coregorm"
 )
 
 const (
@@ -85,16 +85,13 @@ func (c *CLI) run(ctx context.Context, config *settings.Config) error {
 	// 	return nil
 	case "serve":
 		// gorm
-		// dsn := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s search_path=%s sslmode=disable",
-		// 	config.DB.Host, config.DB.Port, config.DB.User, config.DB.Password, config.DB.DBName, config.DB.Schema)
 		var db *gorm.DB
+		const dbFile = "gorm.db"
 		if config.Logger.Sql {
-			db = gorm.NewDBWithLogger("")
+			db = gorm.NewDBWithLogger(dbFile)
 		} else {
-			db = gorm.NewDB("")
+			db = gorm.NewDB(dbFile)
 		}
-
-		// log.Info().Msgf("database connected, host %s, port %d, user %s, dbname %s", config.DB.Host, config.DB.Port, config.DB.User, config.DB.DBName)
 
 		// set up auth api proxy
 		// authService := service.NewAuthService(config.Auth.JWTSecret)
