@@ -1,4 +1,4 @@
-package gorm
+package coregorm
 
 import (
 	"context"
@@ -24,7 +24,7 @@ func NewDB(dsn string, config ...*gorm.Config) *DB {
 		c = config[0]
 	}
 
-	db, err := gorm.Open(sqlite.Open("gorm.db"), c)
+	db, err := gorm.Open(sqlite.Open(dsn), c)
 
 	db.Scopes(func(db *gorm.DB) *gorm.DB {
 		return db.Session(&gorm.Session{SkipDefaultTransaction: true})

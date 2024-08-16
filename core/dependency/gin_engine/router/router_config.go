@@ -3,10 +3,11 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
+	gorm "river0825/cleanarchitecture/core/dependency/storage/coregorm"
+
 	"river0825/cleanarchitecture/core/arch/domain/eventbus"
 	"river0825/cleanarchitecture/core/arch/port/gin/middleware"
 	"river0825/cleanarchitecture/core/dependency/settings"
-	"river0825/cleanarchitecture/core/dependency/storage/gorm"
 )
 
 type RouterGroup struct {

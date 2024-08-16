@@ -19,7 +19,7 @@ import (
 	"river0825/cleanarchitecture/core/dependency/gin_engine/checkalive"
 	"river0825/cleanarchitecture/core/dependency/gin_engine/router"
 	"river0825/cleanarchitecture/core/dependency/settings"
-	"river0825/cleanarchitecture/core/dependency/storage/gorm"
+	"river0825/cleanarchitecture/core/dependency/storage/coregorm"
 )
 
 var (
@@ -40,7 +40,7 @@ func NewGinEngine(
 	config *settings.Config,
 	authService service.JWTTokenAuthor,
 	eventBus eventbus.IEventBus,
-	gormDB *gorm.DB,
+	gormDB *coregorm.DB,
 	checkAlive []checkalive.ICheckAlive,
 ) *GinEngine {
 	// create the customized gin engine
