@@ -10,20 +10,6 @@
             </set>
           </value>
         </entry>
-        <entry key="AdminCover">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/port/output/gorm/repository.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="AdminMaterial">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/port/output/gorm/repository.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="AppConfig">
           <value>
             <set>
@@ -243,13 +229,6 @@
             </set>
           </value>
         </entry>
-        <entry key="CloneDefaultFreeMaterialResult">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/domain/repository/material_repository.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="Config">
           <value>
             <set>
@@ -275,13 +254,6 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/core/dependency/storage/coregorm/db.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="DefaultFreeMaterialRequest">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/domain/repository/material_repository.go" />
             </set>
           </value>
         </entry>
@@ -317,13 +289,6 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/core/arch/port/repository/inmem/repository.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="GetAdminMaterialByIdsResult">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/domain/repository/material_repository.go" />
             </set>
           </value>
         </entry>
@@ -496,24 +461,10 @@
             </set>
           </value>
         </entry>
-        <entry key="Repository">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/port/output/gorm/repository.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="ResponseBody">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/core/arch/port/gin/response.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="Result">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/port/output/gorm/repository.go" />
             </set>
           </value>
         </entry>
@@ -722,7 +673,7 @@
         <entry key="file://$PROJECT_DIR$/cmd/ent_migrate/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1723790242620" />
+              <option name="lastModified" value="1727431243013" />
             </ScannedPath>
           </value>
         </entry>
@@ -1654,42 +1605,11 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/domain/repository/material_repository.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1725106041601" />
-              <option name="schema">
-                <list>
-                  <option value="GetAdminMaterialByIdsResult" />
-                  <option value="DefaultFreeMaterialRequest" />
-                  <option value="CloneDefaultFreeMaterialResult" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../../workspace/nikeyi/go-server/module/material/port/output/gorm/repository.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1725111831115" />
-              <option name="schema">
-                <list>
-                  <option value="Repository" />
-                  <option value="AdminMaterial" />
-                  <option value="AdminCover" />
-                  <option value="Result" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
       <map>
         <entry key="abs_facade" value="AbsFacade" />
-        <entry key="admin_cover" value="AdminCover" />
-        <entry key="admin_material" value="AdminMaterial" />
         <entry key="app_config" value="AppConfig" />
         <entry key="args" value="args" />
         <entry key="auth_config" value="AuthConfig" />
@@ -1723,18 +1643,15 @@
         <entry key="cli" value="CLI" />
         <entry key="client" value="Client" />
         <entry key="client_ctx_key" value="clientCtxKey" />
-        <entry key="clone_default_free_material_result" value="CloneDefaultFreeMaterialResult" />
         <entry key="config" value="Config" />
         <entry key="constraint_error" value="ConstraintError" />
         <entry key="core_error" value="CoreError" />
         <entry key="db" value="DB" />
-        <entry key="default_free_material_request" value="DefaultFreeMaterialRequest" />
         <entry key="dependencies" value="Dependencies" />
         <entry key="entity" value="Entity" />
         <entry key="event" value="Event" />
         <entry key="generic_gorm_repository" value="GenericGormRepository" />
         <entry key="generic_in_mem_repository" value="GenericInMemRepository" />
-        <entry key="get_admin_material_by_ids_result" value="GetAdminMaterialByIdsResult" />
         <entry key="gin_engine" value="GinEngine" />
         <entry key="group" value="Group" />
         <entry key="group_client" value="GroupClient" />
@@ -1762,9 +1679,7 @@
         <entry key="pagination_query" value="PaginationQuery" />
         <entry key="pagination_response" value="PaginationResponse" />
         <entry key="postgres_config" value="PostgresConfig" />
-        <entry key="repository" value="Repository" />
         <entry key="response_body" value="ResponseBody" />
-        <entry key="result" value="Result" />
         <entry key="router_group" value="RouterGroup" />
         <entry key="schema" value="Schema" />
         <entry key="selector" value="selector" />
@@ -1789,6 +1704,6 @@
         <entry key="validation_error" value="ValidationError" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1724998578824" />
+    <option name="lastTimeChecked" value="1730249877412" />
   </component>
 </project>
